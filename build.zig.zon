@@ -46,6 +46,8 @@
         .libpng = .{ .path = "./pkg/libpng", .lazy = true },
         .oniguruma = .{ .path = "./pkg/oniguruma", .lazy = true },
         .opengl = .{ .path = "./pkg/opengl", .lazy = true },
+        .glslang = .{ .path = "./pkg/glslang", .lazy = true },
+        .spirv_cross = .{ .path = "./pkg/spirv-cross", .lazy = true },
         .sentry = .{ .path = "./pkg/sentry", .lazy = true },
         .simdutf = .{ .path = "./pkg/simdutf", .lazy = true },
         .utfcpp = .{ .path = "./pkg/utfcpp", .lazy = true },
